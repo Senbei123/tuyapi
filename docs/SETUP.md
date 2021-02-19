@@ -35,6 +35,9 @@ It can take 10-15 minutes for these changes to take effect.
 6. On the command line, run `tuya-cli link --api-key <your api key> --api-secret <your api secret> --schema <your schema/Channel ID> --ssid <your WiFi name> --password <your WiFi password> --region us`.  For the region parameter, choose the two-letter country code from `us`, `eu`, and `cn` that is geographically closest to you.
 7. Your devices should link in under a minute and the parameters required to control them will be printed out to the console. If you experience problems, first make sure any smart phone/tablet app that you use with your devices is completely closed and not attempting to communicate with any of the devices.
 
+### Other method using Postman instead of CLI tool
+Have a look at this video in german: https://youtu.be/dBtrsXZOk8M
+
 ### Troubleshooting
 
 **`Error: sign invalid`**
